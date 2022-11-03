@@ -34,13 +34,17 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   <style>
+    body {
+      font-size: 28px;
+    }
+    
     ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
       background-color: #333;
-      position: -webkit-sticky;
+      position: -webkit-sticky; /* Safari */
       position: sticky;
       top: 0;
     }
@@ -56,6 +60,14 @@
       padding: 14px 16px;
       text-decoration: none;
     }
+    
+    li a:hover {
+      background-color: #111;
+    }
+    
+    .active {
+      background-color: #0739c2;
+    }
     </style>
 </head>
 
@@ -66,7 +78,7 @@
   
   ― E.B. White</p>
   </div>
-  
+
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
